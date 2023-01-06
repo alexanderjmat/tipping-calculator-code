@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  position: relative;
+  width: 375px;
+  height: 950px;
+  background: hsl(240, 67%, 45%);
+  left: 40vw;
+  right: none;
+}
+
+h1 {
+  position: absolute;
+  width: 86.66px;
+  height: 53.14px;
+  left: 144px;
+  top: 50px;
+  font-family: "Chivo Mono", monospace; 
+  color:   hsl(248, 41%, 97%);
+
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  html {
+    height: 812px;
+    width: 375px;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .App {
+    position: relative;
+    width: 487px;
+    height: 950px;
+    background: hsl(240, 67%, 45%);
+    right: auto;
+    left: auto;
+  }
+  h1 {
+    position: absolute;
+    width: 86.66px;
+    height: 53.14px;
+    left: 190px;
+    top: 50px;
+    font-family: "Chivo Mono", monospace; 
+    color: hsl(248, 41%, 97%);
+  }
+}
+

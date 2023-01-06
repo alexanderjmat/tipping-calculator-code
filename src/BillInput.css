@@ -1,0 +1,58 @@
+.BillInput {
+    position: absolute;
+    width: 311px;
+    height: 78px;
+    left: 32px;
+    top: 188px;
+}
+
+.BillInput p {
+    position: absolute;
+    height: 24px;
+    width: 47px;
+    left: 0%;
+    right: 84.89%;
+    bottom: 13em;
+    font-family: "Chivo Mono", monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color:  hsl(241, 14%, 56%);
+}
+
+.BillInput input {
+    position: absolute;
+    height: 48px;
+    width: 300px;
+    left: 0%;
+    right: 0%;
+    top: -5em;
+    background: #F3F9FA;
+    border-radius: 5px;
+    border: none;
+    font-family: "Chivo Mono", monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;    
+    text-align: right;
+    color: hsl(240, 100%, 15%);
+    padding-right: 1em;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.BillInput img {
+    position: absolute;
+    left: 6.19%;
+    right: 90.64%;
+    top: -6.5em;
+    z-index: 1;
+}
+

@@ -1,0 +1,109 @@
+.SelectTip {
+    position: absolute;
+    width: 311px;
+    height: 216px;
+    left: 30px;
+    top: 275px;
+
+}
+
+.SelectTip p {
+    position: absolute;
+    height: 24px;
+    width: 140px;
+    left: 0%;
+    right: 54.98%;
+    top: -9em;
+    font-family: "Chivo Mono", monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: hsl(241, 14%, 56%);
+}
+
+.SelectTip__Buttons {
+    position: absolute;
+    width: 311px;
+    height: 176px;
+    left: 0px;
+    top: -9em;
+    padding-top: 2em;
+
+}
+
+.SelectTip__Buttons-btn {
+    position: absolute;
+    height: 48px;
+    width: 146px;
+    background: hsl(240, 100%, 15%);
+    border-radius: 5px;
+    font-family: "Chivo Mono", monospace;
+    color: white;
+    border: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.SelectTip__Buttons-btn:hover, .SelectTip__Buttons-btn--checked:hover {
+    cursor: pointer;
+}
+
+.SelectTip__Buttons-btn--checked {
+    position: absolute;
+    height: 48px;
+    width: 146px;
+    background: hsl(240, 67%, 45%);
+    border-radius: 5px;
+    font-family: "Chivo Mono", monospace;
+    color: hsl(240, 100%, 15%);
+    border: none;
+    font-size: 1.5em;
+}
+
+#btn-1 {
+    left: 0%;
+    right: 52.85%;
+    top: 18.52%;
+    bottom: 59.26%;
+
+}
+#btn-2 {
+    left: 52.47%;
+    right: 0.38%;
+    top: 18.52%;
+    bottom: 59.26%;
+
+}
+#btn-3 {
+    left: 0%;
+    right: 52.85%;
+    top: 48.15%;
+    bottom: 29.63%;
+
+}
+#btn-4 {
+    left: 52.47%;
+    right: 0.38%;
+    top: 48.15%;
+    bottom: 29.63%;
+
+}
+#btn-5 {
+    left: 0%;
+    right: 52.85%;
+    top: 77.78%;
+    bottom: 0%;
+
+}
+#btn-6 {
+    width: 148px;
+    text-align: center;
+    left: 52.47%;
+    right: 0.38%;
+    top: 77.78%;
+    bottom: 0%;
+    background-color: hsl(189, 41%, 97%);
+    color: hsl(240, 100%, 15%);
+    border-radius: 5px;
+}
+
